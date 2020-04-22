@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{0BE8E511-D506-A1D0-E67D-923A5ED26D39}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PlayerController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Mover.cs" Line="15" Column="9" />
+      <File FileName="Assets/Scripts/FollowCamera.cs" Line="10" Column="14" />
+      <File FileName="Assets/Scripts/Control/NewMonoBehaviour.cs" Line="22" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RPG" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Control" expanded="True">
+                  <Node name="PlayerController.cs" selected="True" />
+                </Node>
+                <Node name="Core" expanded="True" />
+                <Node name="Movement" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0001b867-ee13-4982-a58c-c3cb46735312" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
