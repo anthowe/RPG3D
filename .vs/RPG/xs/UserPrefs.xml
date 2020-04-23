@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{0BE8E511-D506-A1D0-E67D-923A5ED26D39}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Control/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Combat/Fighter.cs">
     <Files>
-      <File FileName="Assets/Scripts/Mover.cs" Line="15" Column="9" />
-      <File FileName="Assets/Scripts/FollowCamera.cs" Line="10" Column="14" />
-      <File FileName="Assets/Scripts/Control/NewMonoBehaviour.cs" Line="22" Column="10" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="28" Column="54" />
+      <File FileName="Assets/Scripts/Core/FollowCamera.cs" />
+      <File FileName="Assets/Scripts/Movement/Mover.cs" Line="39" Column="1" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="8" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,9 +12,10 @@
           <Node name="RPG" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Control" expanded="True">
-                  <Node name="PlayerController.cs" selected="True" />
+                <Node name="Combat" expanded="True">
+                  <Node name="Fighter.cs" selected="True" />
                 </Node>
+                <Node name="Control" expanded="True" />
                 <Node name="Core" expanded="True" />
                 <Node name="Movement" expanded="True" />
               </Node>
@@ -25,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0001b867-ee13-4982-a58c-c3cb46735312" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2bfff622-260c-4dd4-b890-d9759a6fc0dc" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
