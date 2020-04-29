@@ -264,18 +264,6 @@ Transform:
   m_Father: {fileID: 6764202503126577121}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5970552910051013403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205686736667373197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b58e18e3ff4f64b7d855a13ced9bba83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1213825791895202905
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,6 +648,18 @@ Transform:
   m_Father: {fileID: 3086835624091469344}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5970552910051013403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205686736667373197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58e18e3ff4f64b7d855a13ced9bba83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2958558661650695709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,7 +1366,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 75a95c1a6b684504c93637e35347c475, type: 2}
+  - {fileID: 2100000, guid: bfbe2e8b331e2cc42be1591f949c0e41, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2262,6 +2262,11 @@ PrefabInstance:
       propertyPath: weaponDamage
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1690337728203075669, guid: 1f89c96b788784d998331939fb00b226,
+        type: 3}
+      propertyPath: timeBetweenAttacks
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3995148814111848583, guid: 1f89c96b788784d998331939fb00b226,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2320,6 +2325,11 @@ PrefabInstance:
     - target: {fileID: 3995148814111848605, guid: 1f89c96b788784d998331939fb00b226,
         type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3995148814111848605, guid: 1f89c96b788784d998331939fb00b226,
+        type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
