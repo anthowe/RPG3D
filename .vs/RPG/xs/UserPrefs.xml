@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{0BE8E511-D506-A1D0-E67D-923A5ED26D39}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Cinematics/CinematicControlRemover.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneManagement/Portal.cs">
     <Files>
       <File FileName="Assets/Scripts/Cinematics/CinematicControlRemover.cs" Line="14" Column="13" />
-      <File FileName="Assets/Scripts/Combat/Fighter.cs" Line="85" Column="44" />
-      <File FileName="Assets/Scripts/Control/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Combat/Fighter.cs" />
+      <File FileName="Assets/Scripts/Control/PlayerController.cs" />
+      <File FileName="Assets/Scripts/SceneManagement/Portal.cs" Line="20" Column="47" />
+      <File FileName="Assets/Scripts/Control/PatrolPath.cs" />
+      <File FileName="Assets/Scripts/Combat/CombatTarget.cs" />
+      <File FileName="Assets/Scripts/Movement/Mover.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,13 +15,14 @@
           <Node name="RPG" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Cinematics" expanded="True">
-                  <Node name="CinematicControlRemover.cs" selected="True" />
-                </Node>
+                <Node name="Cinematics" expanded="True" />
                 <Node name="Combat" expanded="True" />
                 <Node name="Control" expanded="True" />
                 <Node name="Core" expanded="True" />
                 <Node name="Movement" expanded="True" />
+                <Node name="SceneManagement" expanded="True">
+                  <Node name="Portal.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -27,7 +32,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="669e840c-ed5c-4fdc-89f9-d93ab4c47984" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="09dd13ff-ef69-4e3c-b6de-6f670ad48783" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\Core\Health.cs" />
     <Compile Include="Assets\Scripts\Core\IAction.cs" />
     <Compile Include="Assets\Scripts\Movement\Mover.cs" />
+    <Compile Include="Assets\Scripts\SceneManagement\Portal.cs" />
     <None Include="Assets\Game\Characters\Animations\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
     <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
     <Reference Include="Unity.Timeline.Editor">
