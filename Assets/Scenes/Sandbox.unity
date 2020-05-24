@@ -3025,6 +3025,11 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 227566812}
+    - target: {fileID: 8725341083886565991, guid: 48408053d9da9434b99d3fe8ab104ab2,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48408053d9da9434b99d3fe8ab104ab2, type: 3}
 --- !u!1 &1920175561
@@ -3086,7 +3091,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920175561}
-  m_LocalRotation: {x: -0.004722087, y: 0.99519277, z: -0.07538772, w: -0.062336445}
+  m_LocalRotation: {x: -0.004722083, y: 0.99519277, z: -0.075387694, w: -0.06233641}
   m_LocalPosition: {x: -2.9, y: 2.5, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3917,10 +3922,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2691366028259818076, guid: c09994a9f4a3e4b399806189882eefc2,
+        type: 3}
+      propertyPath: healthPoints
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562551835745216494, guid: c09994a9f4a3e4b399806189882eefc2,
+        type: 3}
+      propertyPath: weaponDamage
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 8067082574171901344, guid: c09994a9f4a3e4b399806189882eefc2,
         type: 3}
       propertyPath: uniqueIdentifier
-      value: 57f9ddd1-a918-4b49-aa8a-650af4fa1fb3
+      value: player
       objectReference: {fileID: 0}
     - target: {fileID: 8495316497368995774, guid: c09994a9f4a3e4b399806189882eefc2,
         type: 3}

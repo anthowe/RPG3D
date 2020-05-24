@@ -4,6 +4,7 @@ using UnityEngine.Playables;
 using RPG.Core;
 using RPG.Control;
 
+
 namespace RPG.Cinematics
 {
     public class CinematicControlRemover : MonoBehaviour
@@ -26,5 +27,6 @@ namespace RPG.Cinematics
         {
             player.GetComponent<PlayerController>().enabled = true;
         }
+ 
     }
 }

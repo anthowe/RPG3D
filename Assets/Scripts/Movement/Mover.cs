@@ -67,7 +67,10 @@ namespace RPG.Movement
 
         public void RestoreState(object state)
         {
-            throw new System.NotImplementedException();
+            SerializableVector3 position =(SerializableVector3)state;
+            GetComponent<NavMeshAgent>().enabled = false;
+            transform.position = position.ToVector();
+            GetComponent<NavMeshAgent>().enabled = true;
         }
     }
 }

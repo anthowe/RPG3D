@@ -5,12 +5,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.AI;
 
+
 namespace RPG.SceneManagement
 {
     public class Portal : MonoBehaviour
 
         
     {
+        
+     
         enum DestinationIdentifier
         {
             A, B, C, D, E
@@ -45,7 +48,15 @@ namespace RPG.SceneManagement
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
             yield return fader.FadeOut(fadeOutTime);
 
+            //Save current level
+            SavingWrapper wrapper = FindObjectOfType<SavingWrapper>();
+            wrapper.Save();
+           
             Portal otherPortal = GetOtherPortal();
+
+            //Load current level
+
+            wrapper.Load();
             UpdatePlayer(otherPortal);
 
             yield return new WaitForSeconds(fadeWaitTime);
