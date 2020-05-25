@@ -124,7 +124,6 @@ Transform:
   - {fileID: 9047033763595362769}
   - {fileID: 9047033762228737715}
   - {fileID: 9047033762563223470}
-  - {fileID: 8922921675574373058}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -142,86 +141,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   persistantObjectPrefab: {fileID: 2953791679813990475, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
     type: 3}
---- !u!1001 &4792636267602050078
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 9047033763617437143}
-    m_Modifications:
-    - target: {fileID: 2953791679813990475, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_Name
-      value: PersistantObjects
-      objectReference: {fileID: 0}
-    - target: {fileID: 3992353189736426400, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.9461746
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.86
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 22.12986
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 928372dbad1fd4ed5b6c99183c1e9a4c, type: 3}
---- !u!4 &8922921675574373058 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4131569654733510364, guid: 928372dbad1fd4ed5b6c99183c1e9a4c,
-    type: 3}
-  m_PrefabInstance: {fileID: 4792636267602050078}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7592280732582159862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -229,6 +148,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9047033763617437143}
     m_Modifications:
+    - target: {fileID: 1499899198274155328, guid: e3408ca6dbf5541739588c1fed9de2c3,
+        type: 3}
+      propertyPath: field of view
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499899198274155328, guid: e3408ca6dbf5541739588c1fed9de2c3,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499899198274155328, guid: e3408ca6dbf5541739588c1fed9de2c3,
+        type: 3}
+      propertyPath: far clip plane
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 1499899198274155332, guid: e3408ca6dbf5541739588c1fed9de2c3,
         type: 3}
       propertyPath: m_Name
@@ -237,17 +171,17 @@ PrefabInstance:
     - target: {fileID: 1499899198274155333, guid: e3408ca6dbf5541739588c1fed9de2c3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.203955
+      value: -34.55134
       objectReference: {fileID: 0}
     - target: {fileID: 1499899198274155333, guid: e3408ca6dbf5541739588c1fed9de2c3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.160532
+      value: -2.6432276
       objectReference: {fileID: 0}
     - target: {fileID: 1499899198274155333, guid: e3408ca6dbf5541739588c1fed9de2c3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.599695
+      value: 18.466959
       objectReference: {fileID: 0}
     - target: {fileID: 1499899198274155333, guid: e3408ca6dbf5541739588c1fed9de2c3,
         type: 3}
@@ -364,6 +298,21 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 7869742332193795900}
+    - target: {fileID: 1698473091885131339, guid: bc3907ba9069842739e3eb260712609a,
+        type: 3}
+      propertyPath: m_Lens.FieldOfView
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698473091885131339, guid: bc3907ba9069842739e3eb260712609a,
+        type: 3}
+      propertyPath: m_Lens.NearClipPlane
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698473091885131339, guid: bc3907ba9069842739e3eb260712609a,
+        type: 3}
+      propertyPath: m_Lens.FarClipPlane
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 1698473091885131341, guid: bc3907ba9069842739e3eb260712609a,
         type: 3}
       propertyPath: m_Name
