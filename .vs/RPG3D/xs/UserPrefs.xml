@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{A4E8B3F5-728F-0017-62C0-5D9590B2134C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Movement/Mover.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Library/Application Support/DefaultCompany/RPG/save.sav">
     <Files>
       <File FileName="Assets/Scripts/Movement/Mover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Saving/SavingSystem.cs" Line="32" Column="17" />
+      <File FileName="../../Library/Application Support/DefaultCompany/RPG/save.sav" Line="1" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,8 +11,9 @@
           <Node name="RPG3D" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Movement" expanded="True">
-                  <Node name="Mover.cs" selected="True" />
+                <Node name="Movement" expanded="True" />
+                <Node name="Saving" expanded="True">
+                  <Node name="SavingSystem.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -21,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4348034a-b258-4471-86c3-35bd4c6fe372" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2b2de069-ee84-490f-9e7d-bb49d3543ea4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
