@@ -351,10 +351,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 240643099}
     m_Modifications:
+    - target: {fileID: -1902163237599710374, guid: 48408053d9da9434b99d3fe8ab104ab2,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: 840156b6-bd9f-469a-9024-c01a0d33f540
+      objectReference: {fileID: 0}
     - target: {fileID: 689772857725093777, guid: 48408053d9da9434b99d3fe8ab104ab2,
         type: 3}
       propertyPath: uniqueIdentifier
-      value: 9a4bafeb-5f46-4f84-bcb8-dff34527abf4
+      value: 535e2960-e6a2-4d83-8697-679510453277
       objectReference: {fileID: 0}
     - target: {fileID: 815266890265421069, guid: 48408053d9da9434b99d3fe8ab104ab2,
         type: 3}
@@ -1641,10 +1646,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 240643099}
     m_Modifications:
+    - target: {fileID: -1902163237599710374, guid: 48408053d9da9434b99d3fe8ab104ab2,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: 1a76dde3-1f7d-4e40-8fb8-0d92b3728834
+      objectReference: {fileID: 0}
     - target: {fileID: 689772857725093777, guid: 48408053d9da9434b99d3fe8ab104ab2,
         type: 3}
       propertyPath: uniqueIdentifier
-      value: 0c3697ea-3abd-46ed-92d1-8b58e5dce9f4
+      value: 8e31160b-6ab0-46dc-8ee8-0ed6e3786564
       objectReference: {fileID: 0}
     - target: {fileID: 815266890265421065, guid: 48408053d9da9434b99d3fe8ab104ab2,
         type: 3}
@@ -2950,10 +2960,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 240643099}
     m_Modifications:
+    - target: {fileID: -1902163237599710374, guid: 48408053d9da9434b99d3fe8ab104ab2,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: d7c267e9-98fe-4c80-877e-f548488856e3
+      objectReference: {fileID: 0}
     - target: {fileID: 689772857725093777, guid: 48408053d9da9434b99d3fe8ab104ab2,
         type: 3}
       propertyPath: uniqueIdentifier
-      value: 879d5c38-3511-4e89-8746-2f9de04d2f35
+      value: bbd06764-64f9-4e29-b2b8-16ebbc06ba0d
       objectReference: {fileID: 0}
     - target: {fileID: 815266890265421069, guid: 48408053d9da9434b99d3fe8ab104ab2,
         type: 3}
@@ -3931,6 +3946,11 @@ PrefabInstance:
         type: 3}
       propertyPath: weaponDamage
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067082574171901344, guid: c09994a9f4a3e4b399806189882eefc2,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: f38e587e-2d7a-4c39-ab64-44f4af1812a5
       objectReference: {fileID: 0}
     - target: {fileID: 8495316497368995774, guid: c09994a9f4a3e4b399806189882eefc2,
         type: 3}

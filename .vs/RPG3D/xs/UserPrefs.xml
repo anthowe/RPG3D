@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{A4E8B3F5-728F-0017-62C0-5D9590B2134C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../Library/Application Support/DefaultCompany/RPG/save.sav">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Saving/SavingSystem.cs">
     <Files>
       <File FileName="Assets/Scripts/Movement/Mover.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Saving/SavingSystem.cs" Line="32" Column="17" />
-      <File FileName="../../Library/Application Support/DefaultCompany/RPG/save.sav" Line="1" Column="12" />
+      <File FileName="Assets/Scripts/Saving/SavingSystem.cs" Line="33" Column="14" />
+      <File FileName="../../Library/Application Support/DefaultCompany/RPG/save.sav" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2b2de069-ee84-490f-9e7d-bb49d3543ea4" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5ec5daf0-e9c3-4d38-a0e0-bddfdfe70e66" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
